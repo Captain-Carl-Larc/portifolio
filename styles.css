@@ -144,7 +144,47 @@ ol {
     padding-top: 0.8rem;
 }
 
-
+#contact{
+    margin-top: 3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    padding-top: 2rem;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    justify-content: center;
+    align-items: start;
+    padding-left: 2rem;
+    row-gap: 0.2rem;   
+}
+form button{
+    background-color: rgba(0, 0, 255, 0.888);
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    offset: none;
+    margin: 0rem auto;
+}
+.name{
+    display: flex;
+    row-gap: 0.4rem;
+}
+input{
+    height: 2.2rem;
+    color: black;
+    padding-left: 0.8rem;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+}
+.email label{
+    display: flex;
+    row-gap: 0.4rem;
+}
 @media (max-width: 480px) {
     nav{
         display: flex;
