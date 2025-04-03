@@ -192,6 +192,13 @@ textarea{
     font-size: 1.2rem;
     border: 2px solid black;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    padding: 2.5rem 0.5rem;
+}
 @media (max-width: 480px) {
     nav{
         display: flex;
