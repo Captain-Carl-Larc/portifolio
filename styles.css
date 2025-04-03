@@ -124,6 +124,26 @@ nav div h1{
     border-radius: 0.6rem;
 }
 
+#interests{
+    margin-top: 3rem;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+#interests h2{
+    padding-bottom: 0.3rem;
+}
+.fun-facts-cont h4{
+    padding-bottom: 0.2rem;
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
+.tech-interests{
+    padding-top: 0.8rem;
+}
+
 
 @media (max-width: 480px) {
     nav{
